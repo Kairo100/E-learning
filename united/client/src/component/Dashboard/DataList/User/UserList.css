@@ -1,0 +1,198 @@
+.usercontiner{
+    width: 1139px;
+}
+@media(max-width:945px){
+    .usercontiner{
+        width:670px;
+    }
+}
+@media(max-width:873px){
+    .usercontiner{
+        width:660px;
+    }
+}
+@media(max-width:865px){
+    .usercontiner{
+        width:650px;
+    }
+}
+@media(max-width:849px){
+    .usercontiner{
+        width:640px;
+    }
+}
+@media(max-width:839px){
+    .usercontiner{
+        width:630px;
+    }
+}
+@media(max-width:830px){
+    .usercontiner{
+        width:620px;
+    }
+}
+@media(max-width:819px){
+    .usercontiner{
+        width:610px;
+    }
+}
+@media(max-width:800px){
+    .usercontiner{
+        width:600px;
+    }
+}
+@media(max-width:790px){
+    .usercontiner{
+        width:580px;
+    }
+}
+@media(max-width:767px){
+    .usercontiner{
+        width:560px;
+    }
+}
+@media(max-width:759px){
+    .usercontiner{
+        width:550px;
+    }
+}
+@media(max-width:749px){
+    .usercontiner{
+        width:540px;
+    }
+}
+@media(max-width:745px){
+    .usercontiner{
+        width:530px;
+    }
+}
+@media(max-width:738px){
+    .usercontiner{
+        width:520px;
+    }
+}
+@media(max-width:728px){
+    .usercontiner{
+        width:510px;
+    }
+}
+@media(max-width:720px){
+    .usercontiner{
+        width:500px;
+    }
+}
+@media(max-width:710px){
+    .usercontiner{
+        width:490px;
+    }
+}
+@media(max-width:699px){
+    .usercontiner{
+        width:480px;
+    }
+}
+@media(max-width:690px){
+    .usercontiner{
+        width:470px;
+    }
+}
+@media(max-width:679px){
+    .usercontiner{
+        width:460px;
+    }
+}
+@media(max-width:670px){
+    .usercontiner{
+        width:450px;
+    }
+}
+@media(max-width:660px){
+    .usercontiner{
+        width:440px;
+    }
+}
+@media(max-width:640px){
+    .usercontiner{
+        width:430px;
+    }
+}
+@media(max-width:630px){
+    .usercontiner{
+        width:430px;
+    }
+}
+@media(max-width:620px){
+    .usercontiner{
+        width:410px;
+    }
+}
+@media(max-width:609px){
+    .usercontiner{
+        width:400px;
+    }
+}
+@media(max-width:559px){
+    .usercontiner{
+        width:370px;
+    }
+}
+@media(max-width:539px){
+    .usercontiner{
+        width:360px;
+    }
+}
+@media(max-width:529px){
+    .usercontiner{
+        width:350px;
+    }
+}
+@media(max-width:503px){
+    .usercontiner{
+        width:320px;
+    }
+}
+@media(max-width:473px){
+    .usercontiner{
+        width:310px;
+    }
+}
+@media(max-width:463px){
+    .usercontiner{
+        width:300px;
+    }
+}
+@media(max-width:453px){
+    .usercontiner{
+        width:290px;
+    }
+}
+@media(max-width:443px){
+    .usercontiner{
+        width:280px;
+    }
+}
+@media(max-width:433px){
+    .usercontiner{
+        width:270px;
+    }
+}
+@media(max-width:426px){
+    .usercontiner{
+        width:260px;
+    }
+}
+@media(max-width:416px){
+    .usercontiner{
+        width:250px;
+    }
+}
+@media(max-width:400px){
+    .usercontiner{
+        width:240px;
+    }
+}
+@media(max-width:390px){
+    .usercontiner{
+        width:220px;
+    }
+}

@@ -1,0 +1,12 @@
+.prifleuser{
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+   padding-top: 7px;
+   /* border-radius: ; */
+   border: 4px solid orange;
+    color: white;
+}

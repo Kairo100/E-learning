@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const Section_1 = require("../controllers/Section");
+const SectionRouter = (0, express_1.Router)();
+SectionRouter.get('/get/one/:id', Section_1.getonsesection);
+SectionRouter.get('/get/all', Section_1.manysections);
+SectionRouter.delete('/delete/:id', Section_1.deleteonesection);
+SectionRouter.put('/update/:id', Section_1.updating);
+SectionRouter.post('/Register', Section_1.newsection);
+exports.default = SectionRouter;

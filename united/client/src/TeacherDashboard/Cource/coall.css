@@ -1,0 +1,118 @@
+
+@media (max-width:572px){
+  .Detailconer{
+    width:400px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+
+@media (max-width:549px){
+  .Detailconer{
+    width:380px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+@media (max-width:529px){
+  .Detailconer{
+    width:360px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+@media (max-width:513px){
+  .Detailconer{
+    width:340px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+@media (max-width:492px){
+  .Detailconer{
+    width:300px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+@media (max-width:450px){
+  .Detailconer{
+    width:290px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+@media (max-width:438px){
+  .Detailconer{
+    width:250px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+@media (max-width:398px){
+  .Detailconer{
+    width:220px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+@media (max-width:368px){
+  .Detailconer{
+    width:200px !important;
+    overflow: auto;
+    /* color: red; */
+  }
+}
+.containerlistcource{
+  overflow: auto;
+}
+@media(max-width:768px){
+  .containerlistcource{
+    width:500px !important;
+  }
+}
+@media(max-width:670px){
+  .containerlistcource{
+    width:440px !important;
+  }
+}
+@media(max-width:607px){
+  .containerlistcource{
+    width:400px !important;
+  }
+}
+@media(max-width:567px){
+  .containerlistcource{
+    width:360px !important;
+  }
+}
+@media(max-width:537px){
+  .containerlistcource{
+    width:340px !important;
+  }
+}
+@media(max-width:507px){
+  .containerlistcource{
+    width:320px !important;
+  }
+}
+@media(max-width:487px){
+  .containerlistcource{
+    width:300px !important;
+  }
+}
+@media(max-width:467px){
+  .containerlistcource{
+    width:260px !important;
+  }
+}
+@media(max-width:424px){
+  .containerlistcource{
+    width:200px !important;
+  }
+}
+@media(max-width:365px){
+  .containerlistcource{
+    width:180px !important;
+  }
+}

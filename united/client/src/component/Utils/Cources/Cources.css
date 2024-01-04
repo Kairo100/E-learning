@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.CourcesContinering{
+cursor: pointer;
+margin-left: 70px;
+margin-bottom: 50px;
+
+}
+.ourceorces{
+    margin-left: 34rem;
+    border-bottom: 2px solid green;
+    width: 97px;
+    color: gray;
+    font-weight: bolder;
+}
+.cources{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* text-align: center; */
+    margin-top: 20px;
+}
+.box{
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(27, 26, 26, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}

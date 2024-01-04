@@ -1,0 +1,14 @@
+.containerchartenrollment{
+   width: 57rem !important;
+}
+@media(max-width:768px){
+    .containerchartenrollment{
+        width: 96% !important;
+    }
+}
+
+@media(max-width:468px){
+    .containerchartenrollment{
+        width: 94% !important;
+    }
+}

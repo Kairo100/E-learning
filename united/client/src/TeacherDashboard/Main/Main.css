@@ -1,0 +1,10 @@
+.home {
+    display: flex;
+    /* background-color: blueviolet; */
+}
+  
+    .homeContainer {
+      flex: 6;
+    }
+
+        

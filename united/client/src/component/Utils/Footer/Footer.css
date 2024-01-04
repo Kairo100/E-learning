@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_padding{
+    padding: 7rem 4rem;
+    min-height: 20rem;
+   
+}
+.footer{
+    background-color:white;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+    /* -webkit-box-shadow: 1px 1px 5px 0px rgba(201, 196, 196, 0.75); */
+ /* background: ; */
+}
+.sub_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub_footer_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-top: 2rem;
+    /* background: blueviolet; */
+}
+.sub_footer_links_dev
+{
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+.socialmedia{
+    width: 80%;
+}
+.sb_footer-links-div h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+.sb_footer-links-div p{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+.sb_footer_below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+.sb_footer_below_links{
+    display: flex;
+    flex-direction: column;
+}
+.sb_footer_below_links p{
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+hr{
+    color: white !important;
+    width: 100%;
+}
+.sb_footer_copyright{
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 600px;
+}
+@media (max-width:850px){
+    .sub_footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+@media(max-width:550px){
+.sub_footer-heading h1{
+    font-size: 34px;
+    line-height: 42px;
+}
+.sb_footer-links div{
+    margin: 1rem 0;
+}
+.sb_footer_btn p{
+    font-size: 14px;
+    line-height: 20px ;
+}
+.sb_footer_below{
+    flex-direction: column;
+    justify-content: left;
+}
+.sb_footer_below_links{
+    flex-direction: column;
+}
+
+}
+@media(max-width:500px){
+    .sub_footer-heading h1{
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
+.sb_footer_copyright{
+    /* text-align: center; */
+    margin-left: 2rem;
+}

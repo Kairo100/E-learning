@@ -1,0 +1,7 @@
+.cat-link {
+  transition: transform 0.4s ease-in-out;
+}
+
+.cat-link:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const OflineEnrollment_1 = require("../controllers/OflineEnrollment");
+const oflineenrollmentrouter = (0, express_1.Router)();
+oflineenrollmentrouter.get('/get/:id', OflineEnrollment_1.getoneofllineenrollment);
+oflineenrollmentrouter.get('/get/all', OflineEnrollment_1.getallfolineenrollment);
+oflineenrollmentrouter.post('/new', OflineEnrollment_1.RegisterOflineenrollment);
+oflineenrollmentrouter.put('/update/:id', OflineEnrollment_1.updateoflinenrollment);
+oflineenrollmentrouter.delete('/delete/:id', OflineEnrollment_1.deleteOflineenrollment);
+exports.default = oflineenrollmentrouter;

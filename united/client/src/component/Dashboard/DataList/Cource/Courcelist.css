@@ -1,0 +1,51 @@
+/* Courcelist.css */
+.container {
+  /* Your existing styles for the container */
+}
+
+.input-search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-search input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.input-search input:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
+.catcard{
+  transition: transform 0.3s ease-in-out;
+}
+.catcard :hover{
+  /* transform: translateY(-5px); */
+}
+.input-search button {
+  margin-left: 0.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #3182ce;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.input-search button:hover {
+  background-color: #245ea7;
+}
+
+.input-search button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}

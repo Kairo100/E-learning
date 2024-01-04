@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Widget{
+    display: flex;
+    width:24rem;
+    padding: 6px;
+    height: 9rem;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px 0px rgba(244, 244, 247, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(246, 246, 253, 0.75);
+  border-radius: 2px;
+  /* height: 100px; */
+  }
+  .continerofwidget{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    gap: 90px;
+ 
+  }
+  @media(max-width:768px){
+    .Widget{
+       max-width: 18rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+        max-width: 20rem;
+       
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:738px){
+    .Widget{
+       max-width: 17rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+        max-width: 19rem;
+       
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:706px){
+    .Widget{
+       max-width: 16rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+       
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:686px){
+    .Widget{
+       max-width: 16rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+           
+      width: 100%;
+       
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:676px){
+    .Widget{
+       max-width: 15rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+       
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:644px){
+    .Widget{
+       max-width: 14rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+           
+      width: 100%;
+       
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:611px){
+    .Widget{
+       max-width: 13rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+      
+        width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:678px){
+    .Widget{
+       max-width: 12rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+         
+        width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:648px){
+    .Widget{
+       max-width: 11rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+           
+      width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:515px){
+    .Widget{
+       max-width: 10rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media(max-width:483px){
+    .Widget{
+       max-width: 20rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:465px){
+    .Widget{
+       max-width: 19rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:450px){
+    .Widget{
+       max-width: 18rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:433px){
+    .Widget{
+       max-width: 17rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:417px){
+    .Widget{
+       max-width: 16rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:402px){
+    .Widget{
+       max-width: 15rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:386px){
+    .Widget{
+       max-width: 14rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:370px){
+    .Widget{
+       max-width: 13rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:354px){
+    .Widget{
+       max-width: 12rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:337px){
+    .Widget{
+       max-width: 11rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+          
+      width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media(max-width:322px){
+    .Widget{
+       max-width: 10rem;
+        gap: 1px;
+    }
+    .continerofwidget{
+        gap:17px;
+        display: grid;
+        
+      width: 100%;
+       
+    grid-template-columns: repeat(1,1fr);
+    }
+  }

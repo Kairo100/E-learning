@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const CatogoryCantroller_1 = require("../controllers/CatogoryCantroller");
+const jwt_1 = require("../helpers/security/jwt");
+const router = (0, express_1.Router)();
+router.get('/all', CatogoryCantroller_1.getAllCategories);
+router.get('/get/one/:catId', CatogoryCantroller_1.getOneCategory);
+router.delete('/remove/:catId', jwt_1.decodeToken, CatogoryCantroller_1.removeCategory);
+router.delete('/delete/:catId', CatogoryCantroller_1.deletecategory);
+router.post('/create', CatogoryCantroller_1.createCategory);
+router.put('/edit/:catId', CatogoryCantroller_1.updateCategory);
+exports.default = router;

@@ -1,0 +1,126 @@
+
+/* *{@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
+/* } */
+*{
+  /* font-family: 'Great Vibes', cursive; */
+}
+.Mainsection{
+  display: flex;
+  transition: all ease-in-out 8s;
+  /* margin-top: 80px; */
+  justify-content: space-around;
+  align-items: center;
+  background-color:white;
+  /* margin-top: 96px; */
+  
+  /* opacity: 0.4; */
+
+  
+}
+.menuingheader{
+  gap:9px;
+}
+.unitedspan{
+  color:#E100FF;
+  /* background-color: b; */
+}
+.btncourcehompgae{
+  border: 1px solid rgb(183, 0, 255);
+  width: 17rem;
+  margin-top: 15px;
+  line-height: 38px;
+  transition: all ease-in-out 0.6s;
+  border-radius: 4px;
+}
+
+.btncourcehompgae:hover{
+  background-color: rgb(183, 0, 255);
+}
+.r{
+ 
+  height:115px;
+  background-color: white;
+}
+.content{
+  width: 40%;
+  /* background-color: orange; */
+  
+  padding-left: 1em;
+}
+
+.content h1{
+  font-weight: bolder;
+  /* text-transform: uppercase; */
+ font-size: 45px;
+}
+.btnBox{
+  width: 100%;
+ 
+  /* margin-top: 9px; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.btn :hover{
+
+  background-image: linear-gradient(green,green),
+  radial-gradient(circle at bottom right,green,rgb(0, 250, 17));
+}
+.btn{
+  transition: all ease-in-out 6s;
+  border: 2px solid transparent;
+  border-radius: 2em;
+  margin-top: 20px;
+  background-image: linear-gradient(#fff,#fff),
+  radial-gradient(circle at bottom right,rgb(55, 0, 128),orange);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
+.readmore{
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: .5em  1.5em;
+  text-decoration: none;
+  color: #301934;
+}
+.imgcontiner{
+  width: 50%;
+  height: 50%;
+}
+.imgcontiner img{
+  /* background-color: yellow; */
+  width: 90%;
+  height: 90%;
+ margin: 0 auto;
+ display: block;
+}
+@media screen and (max-width:900px){
+  html{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:768px){
+  .Mainsection{
+    flex-direction: column;
+    margin-top: 1em;
+  }
+  .content h1{
+    font-size: 2rem;
+    color: #301934;
+  }
+  .content{
+    width: 90%;
+  }
+  .content p{
+    font-size: 1.1rem;
+  }
+  .imgcontiner{
+    width: 80%;
+  }
+}
+@media screen  and(max-width:400px){
+  .imgcontiner{
+    width: 100%;
+    /* border-radius: ; */
+  }
+}

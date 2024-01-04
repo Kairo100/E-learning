@@ -1,0 +1,275 @@
+.parentcource {
+    margin: 6px;
+    height: 90vh;
+    /* border: 1px solid gray; */
+    font-size: 17px;
+    width: 1100px;
+    overflow: auto;
+  }
+
+  
+  .categ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .add {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e1e1;
+    border-radius: 4px;
+  }
+  
+  table.courcechild {
+    width: 100%;
+    /* border-radius: 500px; */
+    border-collapse: collapse;
+  }
+  
+  table.courcechild th,
+  table.courcechild td {
+    border: 1px solid #ddd;
+    /* border-radius: ; */
+    padding: 2px;
+  }
+  
+  table.courcechild th {
+    /* background-color: #d5d5d5; */
+  }
+  
+  tbody.bodytablecategory .border:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .category-input {
+    color: yellow;
+    background: blue;
+  }
+  /* .btnscource{
+    gap: 4px;
+  } */
+  .editcource {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .deletecourcebtn {
+    margin-top: 7px;
+    width: 100%;
+    background-color: #a80008;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+
+  @media(max-width:1118px){
+    .parentcource{
+      max-width: fit-content;
+      font-size:12px;
+    }
+  }
+  @media(max-width:768px){
+    .parentcource{
+      width: 38rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:858px){
+    .parentcource{
+     max-width: 43rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:798px){
+    .parentcource{
+     max-width: 40rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:766px){
+    .parentcource{
+      width: 37rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:750px){
+    .parentcource{
+      width: 36rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:735px){
+    .parentcource{
+      width: 35rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:718px){
+    .parentcource{
+      width: 34rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:702px){
+    .parentcource{
+      width: 33rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:686px){
+    .parentcource{
+      width: 32rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:670px){
+    .parentcource{
+      width: 31rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:654px){
+    .parentcource{
+      width: 30rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:637px){
+    .parentcource{
+      width: 29rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:622px){
+    .parentcource{
+      width: 28rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:607px){
+    .parentcource{
+      width: 27rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:590px){
+    .parentcource{
+      width: 26rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:573px){
+    .parentcource{
+      width: 25rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:557px){
+    .parentcource{
+      width: 24rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:542px){
+    .parentcource{
+      width: 23rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:525px){
+    .parentcource{
+      width: 22rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:515px){
+    .parentcource{
+      width: 21rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:494px){
+    .parentcource{
+      width: 20rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:477px){
+    .parentcource{
+      width: 19rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:462px){
+    .parentcource{
+      width: 18rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:446px){
+    .parentcource{
+      width: 17rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:430px){
+    .parentcource{
+      width: 16rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:414px){
+    .parentcource{
+      width: 14rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:383px){
+    .parentcource{
+      width: 13rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:365px){
+    .parentcource{
+      width: 12rem;
+      font-size:12px;
+    }
+  }
+  @media(max-width:350px){
+    .parentcource{
+      width: 11rem;
+      font-size:12px;
+    }
+  }
